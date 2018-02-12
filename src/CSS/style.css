@@ -1,0 +1,96 @@
+html, body 
+{
+    background: url("../Images/Fond.jpg") no-repeat center fixed;
+    background-size: cover; 
+    
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    
+    font-family: Verdana;
+    color: #A52A2A;
+}
+
+.titre a
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.fond_titre
+{
+    background-color: black;
+    width: 100%;
+}
+
+.connexion
+{
+    margin-top: 60px;
+    margin-left: 50px;
+    
+    color: #FF7F50;
+}
+
+.erreur
+{
+    color: red;
+}
+
+.debut_partie
+{
+    border: 0px;
+    width: 100px;
+    height: 20px;
+}
+
+.menu_jeu
+{
+    padding-right: 45px;
+    
+    width: 200px;
+    height: 100px;
+}
+
+.recommencer
+{
+    background: url("../Images/Recommencer.jpg") no-repeat;
+    background-size: cover;
+    border: 0px;
+    width: 200px;
+    height: 100px;
+    color: white;
+}
+
+.tableau_score
+{
+    width: 95%;
+    
+    background-color: #800000;
+    opacity: 0.6;
+    
+    border: 2px groove black;
+    border-collapse: collapse;
+    color: #7BA927;
+}
+.tableau_score thead tr th
+{
+    border-color: #FFD700;;
+    color: #7BA927;
+    height: 40px;
+    text-align: center;
+}
+.tableau_score tbody tr td
+{
+    border-color: #FFE766;
+    color: #7BA927;
+    height: 30px;
+    text-align: center;
+}
+.tableau_score tfoot tr th
+{
+    height: auto;
+    border-color: #FFD700;;
+    color: #7BA927;
+}
